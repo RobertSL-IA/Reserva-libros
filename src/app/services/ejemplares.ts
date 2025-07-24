@@ -7,7 +7,7 @@ import { Ejemplar, EstadoEjemplar } from '../dashboard/ejemplares/ejemplar.model
   providedIn: 'root'
 })
 export class EjemplaresService {
-  private apiUrl = 'http://18.229.137.205:8080/api/ejemplares';
+  private apiUrl = 'https://18.229.137.205:8443/api/ejemplares';
 
   constructor(private http: HttpClient) { }
 
