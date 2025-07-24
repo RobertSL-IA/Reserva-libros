@@ -9,7 +9,7 @@ import { Ejemplar } from '../dashboard/ejemplares/ejemplar.model';
 })
 export class ReservasService {
 
-  private apiUrl = 'http://localhost:8080/api/reservas';
+  private apiUrl = 'http://18.229.137.205:8080/api/reservas';
 
   constructor(private http: HttpClient) { }
 

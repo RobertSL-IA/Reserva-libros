@@ -8,8 +8,8 @@ import { Ejemplar } from '../dashboard/ejemplares/ejemplar.model';
   providedIn: 'root'
 })
 export class LibrosService {
-  private apiUrl = 'http://localhost:8080/api/libros';
-  private apiUrlAlt = 'http://localhost:8080/api'
+  private apiUrl = 'http://18.229.137.205:8080/api/libros';
+  private apiUrlAlt = 'http://18.229.137.205:8080/api'
 
   constructor(private http: HttpClient) { }
 
